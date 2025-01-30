@@ -1,0 +1,83 @@
+*{   margin:0;
+    padding:0;
+    box-sizing: border-box;
+   font-family:'Gilroy';
+   color: white;
+}
+
+html, body{
+   height: 100%;
+   width: 100%;
+}
+
+#main{
+   height:100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.925);
+ 
+
+}
+#nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 40px;
+   padding: 0px;
+   
+}
+#nav-part2{
+   display: flex;
+   align-items: center;
+   gap:30px;
+   
+}
+#nav h3{
+   font-size: 23px;
+   text-transform: uppercase;
+   font-family: 'Courier New', Courier, monospace;
+   
+}
+#main h1{
+   font-size: 150px;
+   text-transform: uppercase;
+  font-weight: 5;
+  line-height: 120px;
+font-family: cursive;
+     width: 70%;
+  margin-left: 10%;
+  position: relative;
+  z-index: 99;
+
+}
+#main h1:nth-child(2){
+   margin-top: 200px;
+}
+
+#main h1:nth-child(3){
+   text-align: center;
+}
+
+#main h1:nth-child(4){
+  padding-left: 30%;
+
+} 
+#main img{
+   height: 300px;
+   position: absolute;
+   top: 9%;
+  left: 40%;
+}
+
+#img1{
+   rotate: 30deg;
+}
+#img2{
+   rotate: 20deg;
+}
+#img3{
+   rotate: 10deg;
+}
+#img4{
+ 
+}
+

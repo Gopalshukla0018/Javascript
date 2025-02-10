@@ -9,7 +9,7 @@ let turn = true;
 const winPatterns = [
     [0,1,2],  // Top row
     [0,3,6],  // Left column
-    [0,4,8],  // Left diagonal
+    [0,4,8],  // Left diagonal   
     [1,4,7],  // Middle column
     [2,5,8],  // Right column
     [2,4,6],  // Right diagonal
@@ -17,19 +17,19 @@ const winPatterns = [
     [6,7,8]   // Bottom row
 ];
 
-// Add click event to each box
+// Add click event to each box                                                            
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
-        console.log("Box was clicked"); // Show message in console when box is clicked
-
-        if (turn) {  
-            box.innerText = "X"; // If it's X's turn, place "X"
+        console.log("Box was clicked"); // Show message in console when box is clicked+
+        if (turn) {  b /ngn/ 
+            box.innerText = "Xgb";// If it's X's turn, place "X"
             turn = false; // Switch turn to O
         } else {  
             box.innerText = "O"; // If it's O's turn, place "O"
             turn = true; // Switch turn to X
-        }
+        }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 
+        
         box.disabled = true; // Once clicked, the box should not be clickable again
         checkwinner(); // Check if there is a winner
     });

@@ -4,7 +4,7 @@ let display = document.querySelector("#display");
 let buttons = document.querySelectorAll(".btn");
 
 // Function to update display
-function updateDisplay() {
+function updateDisplay() {                                                                                                                                                                                                                              
     display.value = string;
 }
 

@@ -1,0 +1,94 @@
+body{
+    background-color: rgba(72,163,0,0.07);
+    font-family: "Open Sans", serif;
+    
+}
+
+main{
+    margin: 16px;
+}
+
+.tittle {
+    font-size: 64px;
+    color: #48a300;
+    text-align: center;
+
+
+}
+.tittle span{
+    color: #61481c;
+}
+
+.app-container{
+    background-color: #FBFBFB;
+    max-width: 660px;
+   margin-inline: auto ;
+   border-radius: 15px;
+   padding: 32px 42px;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.sun-icon{
+    vertical-align: middle;
+    margin-left: 16px;
+}
+progress-level{
+    font-size: 14px;
+    color: #858586;
+}
+.progress-bar {
+    
+    height: 30px;
+    background-color:rgba(72, 163, 0, 0.1);
+    border-radius: 15px;
+
+    
+}
+.progress-value{
+        height: 100%;
+        width: 66%;
+        background-color: #48a300;
+        border-radius: 15px;   
+        font-weight: 500;
+        font-size: 10px;
+        color: #EEFFE0; 
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+}
+.error-level{
+    color: #FF5151;
+        font-size: 14px;
+}
+
+
+.goal-container {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    background-color: #ffffff;
+    margin-bottom: 42px;
+  }
+  
+  .custom-checkbox {
+    width: 24px;
+    height: 24px;
+    border: 2px solid rgba(97, 72, 28, 0.3);
+    border-radius: 50%;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-cont  
+
+@media( max-width: 768px){
+    .tittle{
+    font-size: 32px;
+    }
+    /* .app-container{
+
+    } */
+}

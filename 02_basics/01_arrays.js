@@ -13,6 +13,7 @@ console.log(myArr2.length);
 // myArr.push(6)
 // myArr.push(7)
 // myArr.pop()
+// myArr.cancat() -- array ko jod deta hai--
 
 // myArr.unshift(9)
 // myArr.shift()

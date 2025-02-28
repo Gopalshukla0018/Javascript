@@ -52,7 +52,7 @@ progress-level{
 }
 .progress-value{
         height: 100%;
-        width: 66%;
+        width: 0;
         background-color: #48a300;
         border-radius: 15px;   
         font-weight: 500;
@@ -60,7 +60,13 @@ progress-level{
         color: #EEFFE0; 
         display: flex;
         align-items: center;
-        padding-left: 20px;
+        /* padding-left: 20px; */
+        overflow: hidden;
+       
+       
+}
+.progress-value span{
+  padding: left 20px;;
 }
 .error-level {
   font-size: 12px;
@@ -113,7 +119,9 @@ progress-level{
   .input-goal::placeholder {
     color: #d9d9d9;
   }
-  
+  .show-error .error-level{
+    display: block;
+  }
 
   .quote {
     font-weight: 500;

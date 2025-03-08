@@ -51,5 +51,13 @@ const update= ()=>{
 
 }
 
+// SHORT NOTES
+// 🔹 current_step tracks the progress level.
+// 🔹 next button increases the step, prev decreases it.
+// 🔹 update() applies active classes & updates the UI Using  this formula - ((active.length-1)/(circle.length-1)*100+"%")
+ 
+// 🔹 Progress bar width is dynamically calculated.
+// 🔹 Buttons are disabled when the user reaches the start or end.
+
 
 

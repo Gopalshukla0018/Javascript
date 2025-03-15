@@ -37,3 +37,13 @@ ageInput.addEventListener("input", (e) => {
   localStorage.setItem("myData", JSON.stringify(myData));
   ageElement.innerText = e.target.value;
 });
+
+// 📌 SHORT NOTES
+// -----------------------------------
+// 1️⃣ localStorage.setItem("key", "value"); // Data store karega
+// 2️⃣ localStorage.getItem("key"); // Data read karega (string return karega)
+// 3️⃣ JSON.stringify(object); // Object ko string me convert karega (store ke liye)
+// 4️⃣ JSON.parse(string); // String ko object me convert karega (read ke liye)
+// 5️⃣ localStorage.removeItem("key"); // Ek key delete karega
+// 6️⃣ localStorage.clear(); // Poora storage delete karega
+// 7️⃣ Pehle data get karo, update karo, phir wapas store karo

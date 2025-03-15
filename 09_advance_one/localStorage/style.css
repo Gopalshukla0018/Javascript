@@ -2,4 +2,13 @@ body {
   background-color: rgb(34, 40, 46);
   font-family: cursive;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+body input {
+  height: 20px;
+  width: 100px;
+  margin: 5px;
 }

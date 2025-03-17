@@ -67,4 +67,13 @@
 // });
 // console.log(result);
 
+//! 2: Using the map method, write a function that takes an array of numbers and returns a new array where each number is squared, but only if it's an even number.
+//     const number = [1,2,3,4,5];
+// const result = number.map((curElem)=>{
+//     if (curElem % 2===0) {
 
+//         return curElem*curElem;
+//     }
+
+// }).filter((curElem)=>curElem !== undefined);
+// console.log(result);

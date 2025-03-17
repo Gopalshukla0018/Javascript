@@ -4,7 +4,7 @@
 
 //* ======================================
 //* LET AND CONST - EcmaScript 2015
-//* =====================================
+//* =====================================      
 
 //? let Keyword:  The let keyword is used to declare variables with block scope. Variables declared with let are mutable, meaning their values can be reassigned.
 
@@ -12,6 +12,8 @@
 
 // const sum = function (a, b) {
 //   let result = `The sum of ${a} and ${b} is ${a + b}`;
+
+
 //   console.log(result);
 // };
 // sum(5, 5);

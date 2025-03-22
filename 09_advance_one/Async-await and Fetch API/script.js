@@ -17,7 +17,11 @@
     console.log(data);
     
   }
+
+
+  
   getData();
+
 
 
   // we can run sync code to async using async await

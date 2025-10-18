@@ -26,3 +26,10 @@ a(); // function b called
 // if we call b () - it is error - b is not defined
 
 b();
+
+
+// arguments and parameters
+function sum(x,y){ // x and y are parameters
+    console.log("sum is ", x+y);
+}
+sum(10,20); // 10 and 20 are arguments
